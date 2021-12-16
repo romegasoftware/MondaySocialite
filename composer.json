@@ -13,7 +13,15 @@
     "authors": [
         {
             "name": "Amir Rami",
-            "email": "me@amirrami.com"
+            "email": "me@amirrami.com",
+            "homepage": "https://amirrami.com",
+            "role": "Developer",
+        },
+        {
+            "name": "Braden Keith",
+            "email": "b.keith@romegadigital.com",
+            "homepage": "https://romegadigital.com",
+            "role": "Developer",
         }
     ],
     "require": {

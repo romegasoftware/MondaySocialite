@@ -40,3 +40,34 @@ You should now be able to use the provider like you would regularly use Socialit
 ```php
 return Socialite::driver('monday')->redirect();
 ```
+
+### Returned User fields
+
+- `birthday`
+- `country_code`
+- `created_at`
+- `join_date`
+- `email`
+- `enabled`
+- `id`
+- `is_admin`
+- `is_guest`
+- `is_pending`
+- `is_view_only`
+- `location`
+- `mobile_phone`
+- `name`
+- `phone`
+- `photo_original`
+- `photo_small`
+- `photo_thumb`
+- `photo_thumb_small`
+- `photo_tiny`
+- `teams`
+  - `id`
+  - `name`
+  - `picture_url`
+- `time_zone_identifier`
+- `title`
+- `url`
+- `utc_hours_diff`
