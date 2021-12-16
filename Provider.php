@@ -18,6 +18,20 @@ class Provider extends AbstractProvider implements ProviderInterface
     public const IDENTIFIER = 'MONDAY';
 
     /**
+     * The scopes being requested.
+     *
+     * @var array
+     */
+    protected $scopes = ['me:read'];
+
+    /**
+     * The separating character for the requested scopes.
+     *
+     * @var string
+     */
+    protected $scopeSeparator = ' ';
+
+    /**
      * @inheritDoc
      */
     protected function getAuthUrl($state)
